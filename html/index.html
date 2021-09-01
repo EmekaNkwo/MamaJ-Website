@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Mamaj Kitchen</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div class="header" id="home">
+      <div class="nav-bar">
+        <div class="nav-image">
+          <a href="#home" class="active"
+            ><img
+              src="/images/logo.png"
+              alt="Mamaj-logo"
+              width="150px"
+              height="70px"
+          /></a>
+        </div>
+
+        <nav class="nav-nav">
+          <ul class="nav-list" id="MenuItems">
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#menu">POPULAR MEALS</a></li>
+
+            <li><a href="#location">LOCATION</a></li>
+            <li><a href="#contact">CONTACT </a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-icon" onclick="menutoggle()">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <!-- <img src="/images/menu.png" class="menu-icon" alt="" /> -->
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a> -->
+      </div>
+      <div class="home-details">
+        <h6>Welcome to</h6>
+        <h1>Mamaj Kitchen</h1>
+        <!-- <h3>Enjoy your Nigerian Dishes</h3> -->
+        <a href="/html/reservation.html" class="home-details-btn">
+          Make your Reservation
+        </a>
+      </div>
+    </div>
+
+    <!-- Home -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <h1>About Us</h1>
+        </div>
+
+        <div class="about-details">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quae
+            eaque nulla, voluptatibus ad aliquid repellendus rerum aperiam animi
+            soluta libero harum, necessitatibus accusantium error laboriosam
+            amet esse, repellat odit.Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quo quae eaque nulla, voluptatibus ad aliquid
+            repellendus rerum aperiam animi soluta libero harum, necessitatibus
+            accusantium error laboriosam amet esse, repellat odit.
+          </p>
+          <a href="#" class="details-btn"> View Details </a>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Our Popular Meals</h1>
+        </div>
+        <div class="meal-item">
+          <div class="meal-img has-margin-right">
+            <img src="/images/food1.png" alt="food3" />
+          </div>
+          <div class="meal-description">
+            <h1>Lorem ipsum</h1>
+          </div>
+        </div>
+        <div class="meal-item">
+          <div class="meal-description has-margin-right">
+            <h1><h1>Lorem Ipsum</h1></h1>
+          </div>
+          <div class="meal-img" data-aos="fade-left" data-aos-delay="1200">
+            <img src="/images/food2.png" alt="food2" />
+          </div>
+        </div>
+        <div class="meal-item">
+          <div class="meal-img has-margin-right">
+            <img src="/images/food3.png" alt="food3" />
+          </div>
+          <div class="meal-description">
+            <h1>Lorem Ipsum</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="location">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Visit Us</h1>
+        </div>
+        <div class="locate">
+          <p>
+            63 Victoria Island,<br />
+            Isolo Way,<br />Lagos State
+          </p>
+
+          <h3>OPENING HOURS</h3>
+          <p>Monday - Thursday</p>
+          <p>8am - 9pm</p>
+          <p>Friday - Saturday</p>
+          <p>10am - 10pm</p>
+          <p>Sunday</p>
+          <p><span>Closed</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-section-heading">
+          <h1>ENQUIRY FORM</h1>
+          <p>
+            Please complete the form below for all enquiries regarding feedback,
+            media and general questions.
+          </p>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" name="" placeholder="Enter your name" />
+          <label for="name">Email Address:</label>
+          <input type="email" name="" placeholder="Enter your email" />
+
+          <label for="message">Your Message: </label>
+          <textarea
+            name=""
+            id=""
+            rows="5"
+            class="input"
+            placeholder="Your Message"
+          ></textarea>
+          <div class="form-btn"><a href="" class="btn"> SUBMIT </a></div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <!-- <div id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div> -->
+      <button onclick="topFunction()" id="up" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+      <p>&copy; 2020 Mama J Kitchen</p>
+    </footer>
+
+    <!------Js for Toggle menu-->
+
+    <script src="/js/main.js"></script>
+    <script src="/js/hiddingtoggle.js"></script>
+    <script src="/js/up.js"></script>
+  </body>
+</html>

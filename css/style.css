@@ -1,0 +1,839 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+section {
+  padding: 4rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+nav {
+  margin: 2% 6%;
+  flex: 1;
+  text-align: right;
+}
+.nav-image {
+  margin-left: 4.5rem;
+}
+
+.logo {
+  font-family: "Sacramento", san serif;
+  color: #f5b22c;
+  letter-spacing: 3px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 1rem;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  color: #f5b22c;
+  transition: 0.3s;
+  border-radius: 0.4rem;
+}
+
+.home-details h1 {
+  font-size: 5rem;
+  color: #fff;
+  user-select: none;
+
+  font-weight: bold;
+
+  letter-spacing: 5px;
+}
+
+.home-details h6 {
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 5px;
+  font-weight: 500;
+  color: #f5b22c;
+}
+
+.home-details h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #f5b22c;
+  margin-left: 0.3rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.home-details-btn {
+  display: inline-block;
+  margin: 1rem 0 0 0.4rem;
+  padding: 1rem 1.4rem;
+  border-radius: 0.4rem;
+  background-color: #ffe838;
+  font-size: 0.9rem;
+  color: #c7141d;
+
+  border: none;
+
+  transition: 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.home-details-btn:hover {
+  background-color: #fcfcfc;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-heading h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.4rem;
+  border: 3px dotted #f5b22c;
+  letter-spacing: 0.5px;
+}
+
+/* .section-heading h1::before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f5b22c;
+} */
+
+/* .section-heading h1::before {
+  width: 6rem;
+  height: 4px;
+  border-radius: 0.4rem;
+} */
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/bg1.png);
+  background-size: cover;
+}
+
+.home-details {
+  position: absolute;
+  top: 50%;
+  left: 5rem;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  line-height: 1.2;
+}
+
+/* ***************** ABOUT **************** */
+#about {
+  background-color: #c7141d;
+}
+.about-details {
+  text-align: center;
+  color: #fff;
+  margin: 2rem 3rem;
+}
+
+.about-details p {
+  text-align: justify;
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+.details-btn {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  background-color: #ffe838;
+  font-size: 1.2rem;
+  transition: background-color 650ms;
+  letter-spacing: 1px;
+  box-shadow: 0px 8px 22px -15px rgba(0, 0, 0, 0.64);
+  color: #c7141d;
+}
+
+.details-btn:hover {
+  background-color: white;
+  color: 2px solid #c7141d;
+}
+
+/* ***************** Popular Meals**************** */
+#menu {
+  background-color: #c7141d;
+}
+.meal-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.meal-item:last-child {
+  margin-bottom: 0;
+}
+
+.meal-img {
+  width: 30%;
+  margin: 1rem 2rem;
+  /* box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64); */
+  filter: drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.699));
+}
+
+.has-margin-right {
+  margin-right: 5rem;
+}
+
+.meal-description h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+
+/* ***************** VISIT US**************** */
+#location {
+  background-color: #c7141d;
+}
+.locate {
+  padding: 3rem 0;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+
+.locate p {
+  line-height: 2;
+  color: #fff;
+}
+
+.locate h3 {
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: #ffe838;
+}
+
+.locate span {
+  font-weight: 400;
+  color: #ffe838;
+}
+
+/* ***************** CONTACT **************** */
+.contact {
+  background-color: #fff;
+}
+
+.contact-section-heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-section-heading h1 {
+  font-size: 2rem;
+  color: #c7141d;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.4rem;
+  border: 3px dotted #f5b22c;
+  letter-spacing: 0.5px;
+}
+.contact-section-heading p {
+  color: #c7141d;
+  margin-top: 4rem;
+  padding: 0 10rem;
+  text-align: center;
+  line-height: 2;
+  font-weight: 500;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form label {
+  color: #c7141d;
+  font-size: 1rem;
+  margin: 2rem 0;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  background-color: #f5b22c;
+  color: white;
+  outline: #c7141d;
+}
+/* input:hover,
+textarea:hover {
+  border: 0.5px solid #c7141d;
+} */
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.808);
+  font-size: 0.8rem;
+}
+textarea {
+  resize: none;
+}
+
+.form-btn {
+  margin: 2rem 34%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #c7141d;
+  border: none;
+  padding: 1rem 6rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 650ms;
+  text-align: center;
+}
+
+.form-btn:hover {
+  background-color: #aa0f17;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #c7141d;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.copyright p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#up {
+  display: none;
+  position: fixed;
+  bottom: 4rem;
+  right: 1rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(14, 14, 14);
+  color: #f3f3f3;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 100%;
+  font-size: 1rem;
+  transition: 0.3s;
+  font-weight: 400;
+  box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+
+#up:hover {
+  background-color: #161616; /* Add a dark-grey background on hover */
+}
+
+/* #up {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background: white;
+  top: -2.5rem;
+  right: 1.5rem;
+  border-radius: 100%;
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+
+#up i {
+  color: #aa0f17;
+  font-size: 2rem;
+  margin: auto;
+} */
+
+.menu-icon {
+  color: #f5b22c;
+  margin-left: 2rem;
+  display: none;
+}
+
+.menu-icon .fa {
+  font-size: 2rem;
+}
+
+/* ------------------ RESERVATION PAGE ----------------- */
+
+.reservation-body {
+  background: url(/images/bg2.png);
+  background-size: cover;
+}
+
+.reservation-nav-image {
+  margin: 3% 0 3% 3rem;
+}
+
+.reservation-desc {
+  text-align: center;
+}
+
+.reservation-desc {
+  user-select: none;
+}
+
+.reservation-desc h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+hr {
+  margin: auto;
+  width: 10%;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 4px;
+  border-color: #f5b22c;
+}
+
+.reservation-desc p {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2;
+  margin-top: 2rem;
+}
+
+.reservation-form {
+  width: 60%;
+  margin-top: 2.5rem;
+}
+
+.reserve-date {
+  width: 30%;
+}
+
+.reserve-label {
+  color: #fff;
+}
+
+/* ***************** MEDIAQUERIES****************
+  */
+
+@media screen and (max-width: 1281px) {
+  .nav-bar {
+    padding: 4%;
+  }
+  nav ul {
+    position: absolute;
+    top: 7.5rem;
+    left: 0;
+    background: rgba(27, 27, 27, 0.7);
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 1s;
+  }
+
+  nav ul li {
+    display: block;
+    margin-right: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  nav ul li a {
+    color: white;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .home-details {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .home-details h1 {
+    font-size: 4rem;
+  }
+
+  .home-details h6 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  /* .home-details h3 {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+  } */
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 2rem 0;
+  }
+
+  .nav-link {
+    font-size: 2.5rem;
+  }
+
+  .section-heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-details p {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+
+  .meal-img {
+    width: 40%;
+    margin: 0 0 2rem 0;
+  }
+  .meal-item {
+    flex-direction: column;
+  }
+  .meal-description {
+    margin: 0;
+    order: 2;
+  }
+
+  .meal-description h1 {
+    font-size: 1.5rem;
+  }
+
+  .locate p {
+    font-size: 1.3rem;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  form label {
+    font-size: 1rem;
+  }
+
+  .contact-section-heading p {
+    color: #c7141d;
+    margin-top: 3rem;
+    padding: 0 0;
+    font-size: 1.2rem;
+    text-align: center;
+
+    font-weight: 500;
+  }
+  .form-btn {
+    text-align: center;
+    /* margin: 2rem ; */
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .nav-image {
+    margin-left: 1rem;
+  }
+
+  form label {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home-details h1 {
+    font-size: 3.5rem;
+  }
+
+  .home-details h6 {
+    font-size: 1.1rem;
+  }
+
+  .home-details h3 {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .nav-bar {
+    padding: 8%;
+  }
+
+  .menu-icon {
+    margin-right: 1.5rem;
+  }
+
+  .nav-image {
+    margin-left: 1.5rem;
+  }
+
+  .logo {
+    font-family: cursive;
+    color: #f5b22c;
+    font-size: 1.4rem;
+  }
+
+  .home-details h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-details h6 {
+    font-size: 0.9rem;
+  }
+
+  .home-details h3 {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+  }
+
+  .home-details .home-details-btn {
+    padding: 1rem 1.4rem;
+
+    font-size: 0.7rem;
+  }
+
+  .about-details p {
+    font-size: 1.2rem;
+  }
+
+  .details-btn a {
+    font-size: 1rem;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  form label {
+    font-size: 0.9rem;
+  }
+
+  .form-btn {
+    margin: 2rem 18%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-bar {
+    padding: 4rem 8%;
+  }
+
+  .menu-icon {
+    margin-right: 1rem;
+  }
+
+  .nav-image {
+    margin-left: 1rem;
+  }
+
+  .logo {
+    font-family: cursive;
+    color: #f5b22c;
+    font-size: 1rem;
+  }
+
+  .home-details h1 {
+    font-size: 1.4rem;
+  }
+
+  .home-details h6 {
+    font-size: 0.8rem;
+  }
+
+  .home-details h3 {
+    font-size: 0.6rem;
+    margin-top: 0.4rem;
+  }
+
+  .home-details .home-details-btn {
+    padding: 1rem 1.4rem;
+
+    font-size: 0.6rem;
+  }
+
+  .section-heading h1 {
+    font-size: 1rem;
+  }
+
+  .about-details p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .details-btn a {
+    font-size: 1rem;
+  }
+
+  .locate h3 {
+    font-size: 1.3rem;
+  }
+
+  .locate p {
+    font-size: 1rem;
+  }
+
+  .meal-img {
+    width: 60%;
+  }
+
+  .meal-description h1 {
+    font-size: 1.2rem;
+  }
+
+  .contact-section-heading h1 {
+    font-size: 1.2rem;
+    color: #c7141d;
+  }
+  .contact-section-heading p {
+    font-size: 0.8rem;
+  }
+
+  form label {
+    font-size: 0.8rem;
+  }
+}
+
+/* ------------- MEDIA QUERY FOR RESERVATION PAGE ------------ */
+
+@media screen and (max-width: 1281px) {
+  .reservation-desc h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 3rem auto 2rem;
+  }
+
+  .reservation-desc p {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.7;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+
+  .reservation-form {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .reserve-date {
+    width: 50%;
+  }
+
+  .reservation-nav-image {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .reservation-form {
+    width: 70%;
+  }
+
+  .reservation-desc p {
+    margin: 2rem 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .reservation-form {
+    width: 60%;
+  }
+
+  .reservation-desc p {
+    margin: 2rem 6rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .reservation-form {
+    width: 90%;
+  }
+
+  .reservation-desc p {
+    margin: 2rem 2rem;
+  }
+
+  .reserve-logo {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .reservation-form {
+    width: 90%;
+  }
+
+  .reservation-desc p {
+    margin: 2rem 2rem;
+  }
+
+  .reserve-logo {
+    font-size: 2rem;
+  }
+}
